@@ -1,4 +1,4 @@
-# 🧠 UNED Master en Investigación en Inteligencia Artificial
+# UNED Master en Investigación en Inteligencia Artificial
 
 <div align="center">
 
@@ -17,20 +17,20 @@
 
 </div>
 
-## 📋 Sobre el Proyecto
+## Sobre el Proyecto
 
 Repositorio completo y profesional con todos los materiales, códigos y recursos del **Máster Universitario en Investigación en Inteligencia Artificial** de la **UNED** (Universidad Nacional de Educación a Distancia).
 
-## 🎯 Objetivos
+## Objetivos
 
-- 📚 **Centralizar** todos los recursos académicos y prácticos
-- 💻 **Implementar** algoritmos y técnicas de IA desde cero
-- 📊 **Documentar** experiencias y aprendizajes
-- 🚀 **Construir** un portafolio profesional en IA
+- **Centralizar** todos los recursos académicos y prácticos
+- **Implementar** algoritmos y técnicas de IA desde cero
+- **Documentar** experiencias y aprendizajes
+- **Construir** un portafolio profesional en IA
 
-## 📖 Estructura del Máster
+## Estructura del Máster
 
-| 📁 Carpeta | 🎓 Asignatura | 📊 ECTS | 📝 Descripción |
+| Carpeta    | Asignatura    | ECTS     | Descripción    |
 |------------|---------------|----------|----------------|
 | [`01_Fundamentos_IA/`](./01_Fundamentos_IA/) | **Fundamentos de Inteligencia Artificial** | 6 ECTS | Conceptos básicos y fundamentos teóricos de la IA |
 | [`02_Metodos_Aprendizaje_Automatico/`](./02_Metodos_Aprendizaje_Automatico/) | **Métodos de Aprendizaje Automático** | 6 ECTS | Algoritmos de ML supervisado y no supervisado |
@@ -50,7 +50,7 @@ Repositorio completo y profesional con todos los materiales, códigos y recursos
 | [`16_Metodologia_Investigacion/`](./16_Metodologia_Investigacion/) | **Metodología de Investigación en SI** | 6 ECTS | Métodos de investigación científica en informática |
 | [`17_TFM/`](./17_TFM/) | **Trabajo Fin de Máster** | 12 ECTS | Proyecto de investigación final |
 
-## 🚀 Inicio Rápido
+## Inicio Rápido
 
 ```bash
 # Clonar el repositorio
@@ -64,6 +64,27 @@ jupyter lab
 ```
 
 ## 👤 Autor
+
+<footer>
+  <div style="display:flex; align-items:center; justify-content:center;">
+    <a href="https://www.linkedin.com/in/fernando-mart%C3%ADnez-marco-a8127328/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/fmmarco29" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://fmmarco29.github.io/AI/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/githubpages.svg" alt="GitHub Pages" style="width:85px; height:85px;">
+    </a>
+    <a href="https://huggingface.co/fmcsihe2929" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/huggingface.svg" alt="Hugging Face">
+    </a>
+    <a href="mailto:fmmarco29@outlook.com" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoftoutlook.svg" alt="Outlook">
+    </a>
+  </div>
+  <div style="margin-top:0.2rem;">© 2025 Fernando Martínez Marco</div>
+</footer>
 
 **Fernando Martínez Marco**
 
