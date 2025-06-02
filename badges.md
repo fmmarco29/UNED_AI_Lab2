@@ -79,7 +79,7 @@
 
 ![Uptime](https://img.shields.io/uptimerobot/ratio/m1234567890-1234567890?label=Uptime)
 ![Response Time](https://img.shields.io/uptimerobot/response-time/m1234567890-1234567890?label=Response%20Time)
-![Status](https://img.shields.io/website?url=https%3A%2F%2Ftu-sitio.com&label=Website%20Status)
+![Status](https://img.shields.io/website/url=https%3A%2F%2Ftu-sitio.com&label=Website%20Status)
 ![Health Check](https://img.shields.io/badge/health%20check-passing-green?logo=heart)
 
 
