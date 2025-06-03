@@ -2,46 +2,18 @@
 
 <div align="center">
 
-<div align="center">
+[![GitHub Stars](https://img.shields.io/github/stars/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=github)](https://github.com/fmmarco29/UNED_AI_lab/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=github)](https://github.com/fmmarco29/UNED_AI_lab/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=github)](https://github.com/fmmarco29/UNED_AI_lab/issues)
+[![GitHub License](https://img.shields.io/github/license/fmmarco29/UNED_AI_lab?style=for-the-badge)](https://github.com/fmmarco29/UNED_AI_lab/blob/main/LICENSE)
 
-<div align="center">
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Lab-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
 
-<a href="https://github.com/fmmarco29/UNED_AI_lab/stargazers">
-  <img src="https://img.shields.io/github/stars/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=github" style="transform: scale(0.5); transform-origin: center;">
-</a>
-<a href="https://github.com/fmmarco29/UNED_AI_lab/network/members">
-  <img src="https://img.shields.io/github/forks/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=github" style="transform: scale(0.5); transform-origin: center;">
-</a>
-<a href="https://github.com/fmmarco29/UNED_AI_lab/issues">
-  <img src="https://img.shields.io/github/issues/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=github" style="transform: scale(0.5); transform-origin: center;">
-</a>
-<a href="https://github.com/fmmarco29/UNED_AI_lab/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/fmmarco29/UNED_AI_lab?style=for-the-badge" style="transform: scale(0.5); transform-origin: center;">
-</a>
-
-<a href="https://python.org">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" style="transform: scale(0.5); transform-origin: center;">
-</a>
-<a href="https://jupyter.org">
-  <img src="https://img.shields.io/badge/Jupyter-Lab-orange?style=for-the-badge&logo=jupyter&logoColor=white" style="transform: scale(0.5); transform-origin: center;">
-</a>
-<a href="https://tensorflow.org">
-  <img src="https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow&logoColor=white" style="transform: scale(0.5); transform-origin: center;">
-</a>
-<a href="https://pytorch.org">
-  <img src="https://img.shields.io/badge/PyTorch-2.x-red?style=for-the-badge&logo=pytorch&logoColor=white" style="transform: scale(0.5); transform-origin: center;">
-</a>
-
-<a href="https://github.com/fmmarco29/UNED_AI_lab/actions">
-  <img src="https://img.shields.io/github/actions/workflow/status/fmmarco29/UNED_AI_lab/ci.yml?style=for-the-badge&logo=github-actions" style="transform: scale(0.5); transform-origin: center;">
-</a>
-<a href="https://github.com/fmmarco29/UNED_AI_lab/commits">
-  <img src="https://img.shields.io/github/last-commit/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=git" style="transform: scale(0.5); transform-origin: center;">
-</a>
-
-</div>
-
-</div>
+[![Build Status](https://img.shields.io/github/actions/workflow/status/fmmarco29/UNED_AI_lab/ci.yml?style=for-the-badge&logo=github-actions)](https://github.com/fmmarco29/UNED_AI_lab/actions)
+[![Last Commit](https://img.shields.io/github/last-commit/fmmarco29/UNED_AI_lab?style=for-the-badge&logo=git)](https://github.com/fmmarco29/UNED_AI_lab/commits)
 
 </div>
 
