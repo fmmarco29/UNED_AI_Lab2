@@ -47,14 +47,14 @@
 
 ## Sobre el Proyecto
 
-Repositorio completo y profesional con todos los materiales, códigos y recursos del **Máster Universitario en Investigación en Inteligencia Artificial** de la **UNED** (Universidad Nacional de Educación a Distancia).
+Repositorio con materiales, códigos y recursos del **Máster Universitario en Investigación en Inteligencia Artificial** de la **UNED** (Universidad Nacional de Educación a Distancia).
 
 ## Objetivos
 
 - **Centralizar** todos los recursos académicos y prácticos
 - **Implementar** algoritmos y técnicas de IA desde cero
 - **Documentar** experiencias y aprendizajes
-- **Construir** un portafolio profesional en IA
+- **Construir** un portafolio en IA
 
 ## Estructura del Máster
 

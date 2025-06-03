@@ -99,3 +99,21 @@ Este proyecto está licenciado bajo la Licencia MIT. Ver [LICENSE](LICENSE) para
 **¡No olvides dar una estrella si te ha sido útil!**
 
 </div>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/fernando-mart%C3%ADnez-marco-a8127328/" target="_blank">
+    <img src="assets/icons/linkedin-white.svg" alt="LinkedIn" width="30" height="30">
+  </a>
+  <a href="https://github.com/fmmarco29" target="_blank">
+    <img src="assets/icons/github-white.svg" alt="GitHub" width="30" height="30">
+  </a>
+  <a href="https://fmmarco29.github.io/AI/" target="_blank">
+    <img src="assets/icons/githubpages-white.svg" alt="GitHub Pages" width="30" height="30">
+  </a>
+  <a href="https://huggingface.co/fmcsihe2929" target="_blank">
+    <img src="assets/icons/huggingface-white.svg" alt="Hugging Face" width="30" height="30">
+  </a>
+  <a href="mailto:fmmarco29@outlook.com" target="_blank">
+    <img src="assets/icons/outlook-white.svg" alt="Outlook" width="30" height="30">
+  </a>
+</div>
