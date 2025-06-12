@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNED Master en Investigación en Inteligencia Artificial</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #87CEEB 0%, #FFE4B5 50%, #FFA500 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header con degradado dinámico */
+        .header {
+            background: linear-gradient(45deg, #4A90E2, #87CEEB, #FFE4B5, #FFA500, #FF6B35);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            padding: 60px 0;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .header .subtitle {
+            font-size: 1.3rem;
+            font-style: italic;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .main-content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            margin: -40px auto 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 60px;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Navigation */
+        .nav-menu {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(5px);
+        }
+
+        .nav-menu h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .nav-menu ul {
+            list-style: none;
+            columns: 2;
+            gap: 20px;
+        }
+
+        .nav-menu li {
+            margin-bottom: 8px;
+            break-inside: avoid;
+        }
+
+        .nav-menu a {
+            color: #4A90E2;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            display: block;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .nav-menu a:hover {
+            background: rgba(74, 144, 226, 0.1);
+            color: #2c3e50;
+            transform: translateX(5px);
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 50px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            border-left: 5px solid #4A90E2;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4A90E2;
+            padding-bottom: 10px;
+        }
+
+        .section h3 {
+            color: #34495e;
+            font-size: 1.5rem;
+            margin: 30px 0 15px 0;
+        }
+
+        .section h4 {
+            color: #4A90E2;
+            font-size: 1.2rem;
+            margin: 20px 0 10px 0;
+        }
+
+        /* Tabla */
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background: linear-gradient(135deg, #4A90E2, #87CEEB);
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:hover {
+            background: rgba(74, 144, 226, 0.05);
+            transition: background 0.3s ease;
+        }
+
+        /* Code blocks */
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .code-block::before {
+            content: 'bash';
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: #34495e;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            color: #bdc3c7;
+        }
+
+        /* Subject cards */
+        .subject-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-left: 5px solid #4A90E2;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .subject-card h3 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .subject-card h3::before {
+            content: '🧠';
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        .subject-card h4 {
+            color: #4A90E2;
+            margin: 20px 0 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .subject-card p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .subject-card ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .subject-card li {
+            margin-bottom: 8px;
+        }
+
+        /* Author section */
+        .author-section {
+            text-align: center;
+            background: linear-gradient(135deg, rgba(74, 144, 226, 0.1), rgba(255, 165, 0, 0.1));
+            padding: 40px;
+            border-radius: 20px;
+            margin: 40px 0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 25px;
+            text-decoration: none;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-links a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            background: white;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(44, 62, 80, 0.9);
+            color: white;
+            border-radius: 15px 15px 0 0;
+            margin-top: 40px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+
+            .main-content {
+                padding: 30px 20px;
+                margin: -20px 10px 20px;
+            }
+
+            .nav-menu ul {
+                columns: 1;
+            }
+
+            .social-links {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+
+        /* Scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #4A90E2;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background: #357ABD;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1>UNED Master en Investigación en Inteligencia Artificial</h1>
+                <p class="subtitle">"AI frees us from the known to face what we cannot yet see — where creation is not a choice, but our only path forward"</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <!-- Menú de navegación -->
+            <div class="nav-menu">
+                <h3>Navegación Rápida</h3>
+                <ul>
+                    <li><a href="#objetivos">Objetivos</a></li>
+                    <li><a href="#estructura">Estructura del Máster</a></li>
+                    <li><a href="#inicio-rapido">Inicio Rápido</a></li>
+                    <li><a href="#aprendizaje-profundo">Aprendizaje Profundo</a></li>
+                    <li><a href="#pln">Procesamiento Lingüístico</a></li>
+                    <li><a href="#mineria-datos">Minería de Datos</a></li>
+                    <li><a href="#sistemas-adaptativos">Sistemas Adaptativos</a></li>
+                    <li><a href="#metodos-simbolicos">Métodos Simbólicos</a></li>
+                    <li><a href="#metodos-probabilistas">Métodos Probabilistas</a></li>
+                    <li><a href="#computacion-evolutiva">Computación Evolutiva</a></li>
+                    <li><a href="#vision-artificial">Visión Artificial</a></li>
+                    <li><a href="#text-mining">Text Mining</a></li>
+                    <li><a href="#ia-sostenible">IA para Desarrollo Sostenible</a></li>
+                    <li><a href="#web-semantica">Web Semántica</a></li>
+                    <li><a href="#machine-learning">Machine Learning</a></li>
+                    <li><a href="#tfm">Trabajo Fin de Máster</a></li>
+                    <li><a href="#metodologia">Metodología de Investigación</a></li>
+                </ul>
+            </div>
+
+            <!-- Objetivos -->
+            <section id="objetivos" class="section">
+                <h2>Objetivos</h2>
+                <ul>
+                    <li><strong>Centralizar</strong> todos los recursos académicos y prácticos</li>
+                    <li><strong>Implementar</strong> algoritmos y técnicas de IA desde cero</li>
+                    <li><strong>Documentar</strong> experiencias y aprendizajes</li>
+                    <li><strong>Construir</strong> un portafolio en IA</li>
+                </ul>
+            </section>
+
+            <!-- Estructura del Máster -->
+            <section id="estructura" class="section">
+                <h2>Estructura del Máster</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Nombre Asignatura</th>
+                                <th>Créditos</th>
+                                <th>Descripción Breve</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>31080010</td>
+                                <td>Aprendizaje Profundo</td>
+                                <td>6</td>
+                                <td>Técnicas avanzadas de redes neuronales profundas.</td>
+                            </tr>
+                            <tr>
+                                <td>31080027</td>
+                                <td>Fundamentos del Procesamiento Lingüístico</td>
+                                <td>6</td>
+                                <td>Bases para el análisis y comprensión del lenguaje natural.</td>
+                            </tr>
+                            <tr>
+                                <td>31101061</td>
+                                <td>Minería de Datos</td>
+                                <td>6</td>
+                                <td>Métodos para extraer conocimiento de grandes datos.</td>
+                            </tr>
+                            <tr>
+                                <td>31101095</td>
+                                <td>Sistemas Adaptativos en Educación</td>
+                                <td>6</td>
+                                <td>Sistemas que se ajustan automáticamente para optimizar el aprendizaje.</td>
+                            </tr>
+                            <tr>
+                                <td>3110117-</td>
+                                <td>Métodos Simbólicos</td>
+                                <td>6</td>
+                                <td>Técnicas basadas en lógica y representaciones simbólicas.</td>
+                            </tr>
+                            <tr>
+                                <td>31101199</td>
+                                <td>Métodos Probabilistas</td>
+                                <td>6</td>
+                                <td>Modelos probabilísticos aplicados a la IA.</td>
+                            </tr>
+                            <tr>
+                                <td>31101220</td>
+                                <td>Computación Evolutiva</td>
+                                <td>6</td>
+                                <td>Algoritmos inspirados en evolución biológica.</td>
+                            </tr>
+                            <tr>
+                                <td>31101235</td>
+                                <td>Visión Artificial</td>
+                                <td>6</td>
+                                <td>Procesamiento e interpretación de imágenes y vídeo.</td>
+                            </tr>
+                            <tr>
+                                <td>31101254</td>
+                                <td>Descubrimiento de Información en Textos</td>
+                                <td>6</td>
+                                <td>Técnicas para extracción de información relevante de textos.</td>
+                            </tr>
+                            <tr>
+                                <td>31101273</td>
+                                <td>Aplicaciones de la IA para el Desarrollo Humano y Sostenible</td>
+                                <td>6</td>
+                                <td>Uso de IA para soluciones sostenibles y sociales.</td>
+                            </tr>
+                            <tr>
+                                <td>31108018</td>
+                                <td>Web Semántica y Enlazado de Datos</td>
+                                <td>6</td>
+                                <td>Tecnologías para enlazar y dar sentido a datos en la web.</td>
+                            </tr>
+                            <tr>
+                                <td>31108037</td>
+                                <td>Métodos de Aprendizaje Automático</td>
+                                <td>6</td>
+                                <td>Técnicas clásicas y modernas de aprendizaje supervisado y no supervisado.</td>
+                            </tr>
+                            <tr>
+                                <td>31108022</td>
+                                <td>Trabajo de Fin de Máster en Investigación en IA</td>
+                                <td>27</td>
+                                <td>Proyecto integrador de investigación avanzada en IA.</td>
+                            </tr>
+                            <tr>
+                                <td>31108041</td>
+                                <td>Metodología de Investigación en Sistemas Inteligentes</td>
+                                <td>3</td>
+                                <td>Técnicas y métodos para investigación en IA.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Inicio Rápido -->
+            <section id="inicio-rapido" class="section">
+                <h2>Inicio Rápido</h2>
+                <div class="code-block">
+# Clonar el repositorio
+git clone https://github.com/fmmarco29/UNED_AI_lab.git
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Ejecutar Jupyter Lab
+jupyter lab
+                </div>
+            </section>
+
+            <!-- Asignaturas detalladas -->
+            <section id="aprendizaje-profundo" class="subject-card">
+                <h3>Aprendizaje Profundo (Deep Learning)</h3>
+                
+                <h4>Descripción:</h4>
+                <p>Esta asignatura introduce los fundamentos de las <strong>redes neuronales profundas</strong>. Se estudian modelos de aprendizaje automáticos basados en <strong>capas ocultas</strong> (hidden layers) que permiten procesar información compleja (imágenes, voz, texto) con alto nivel de precisión. Aunque las redes neuronales profundas no son una tecnología nueva, la disponibilidad de recursos de cómputo masivo (GPUs, clústeres) ha permitido implementarlas con gran eficacia.</p>
+
+                <h4>Valor académico/profesional:</h4>
+                <p>El aprendizaje profundo se considera hoy uno de los campos más revolucionarios de la inteligencia artificial. De hecho, muchos de los avances recientes en IA (como coches autónomos, asistentes virtuales, generación de texto e imágenes) surgen de aplicar redes neuronales profundas. Estos métodos superan a las técnicas tradicionales de aprendizaje automático en tareas complejas de reconocimiento de patrones y son ampliamente utilizados en la industria y la investigación.</p>
+
+                <h4>Aplicaciones prácticas:</h4>
+                <ul>
+                    <li><strong>Visión por computador:</strong> reconocimiento de objetos, detección de anomalías, diagnóstico médico por imagen</li>
+                    <li><strong>Procesamiento de voz y lenguaje:</strong> asistentes personales inteligentes, traducción automática, chatbots</li>
+                    <li><strong>Sistemas de recomendación:</strong> análisis de grandes volúmenes de datos para recomendaciones personalizadas</li>
+                    <li><strong>Industria 4.0:</strong> automatización industrial, mantenimiento predictivo</li>
+                </ul>
+
+                <h4>Recursos recomendados:</h4>
+                <p>Para superar esta asignatura se sugiere practicar con entornos de Python y bibliotecas de Deep Learning como <strong>TensorFlow</strong>, <strong>PyTorch</strong> y <strong>Keras</strong>. Bibliografía clave incluye "Deep Learning" de Goodfellow et al. y "Deep Learning with Python" de François Chollet.</p>
+            </section>
+
+            <section id="pln" class="subject-card">
+                <h3>Fundamentos del Procesamiento Lingüístico (PLN)</h3>
+                
+                <h4>Descripción:</h4>
+                <p>Esta asignatura aborda los <strong>métodos básicos de PLN</strong> orientados al análisis automático del lenguaje. Se centra en el estudio de análisis morfológico, sintáctico y semántico de textos, así como en la modelización del conocimiento lingüístico para que las máquinas entiendan y generen lenguaje humano.</p>
+
+                <h4>Valor académico/profesional:</h4>
+                <p>El PLN es fundamental en la actualidad porque conecta el mundo humano con la inteligencia artificial: permite que los ordenadores comprendan y generen texto y voz en lenguaje natural. Hoy en día el PLN impulsa muchas aplicaciones de la vida diaria como asistentes virtuales, chatbots y sistemas de búsqueda.</p>
+
+                <h4>Aplicaciones prácticas:</h4>
+                <ul>
+                    <li><strong>Asistentes de voz y chatbots:</strong> reconocimiento de voz y generación de lenguaje natural</li>
+                    <li><strong>Traducción automática:</strong> conversión de texto entre idiomas conservando significado</li>
+                    <li><strong>Análisis de documentos:</strong> extracción de información, clasificación automática</li>
+                    <li><strong>Generación de contenido:</strong> redacción automática de textos y resúmenes</li>
+                </ul>
+
+                <h4>Recursos recomendados:</h4>
+                <p>Se aconseja practicar con bibliotecas de PLN como <strong>NLTK</strong>, <strong>spaCy</strong>, <strong>Gensim</strong> o <strong>HuggingFace Transformers</strong>. Para profundizar, son útiles el libro "Speech and Language Processing" de Jurafsky y Martin.</p>
+            </section>
+
+            <section id="mineria-datos" class="subject-card">
+                <h3>Minería de Datos (Data Mining)</h3>
+                
+                <h4>Descripción:</h4>
+                <p>Esta asignatura ofrece una visión amplia de los <strong>conceptos y técnicas de minería de datos</strong>. Cubre las principales tareas (descubrimiento de patrones, clasificación, agrupamiento, evaluación de modelos) y las herramientas más habituales para resolverlas. Se estudia el proceso completo de extracción de conocimiento.</p>
+
+                <h4>Valor académico/profesional:</h4>
+                <p>La minería de datos es un pilar central de la ciencia de datos. Permite extraer conocimiento útil de grandes volúmenes de datos, una habilidad clave en casi todas las industrias. Se emplea masivamente en sectores que necesitan analizar datos históricos o de clientes para tomar decisiones informadas.</p>
+
+                <h4>Aplicaciones prácticas:</h4>
+                <ul>
+                    <li><strong>Banca y finanzas:</strong> calificación de riesgos crediticios y sistemas antifraude</li>
+                    <li><strong>Marketing y retail:</strong> segmentación de clientes, análisis de hábitos de compra</li>
+                    <li><strong>Agricultura inteligente:</strong> predicción de rendimientos de cultivos</li>
+                    <li><strong>Medicina:</strong> diagnósticos más precisos, gestión de recursos sanitarios</li>
+                </ul>
+
+                <h4>Recursos recomendados:</h4>
+                <p>Para esta materia conviene dominar lenguajes como Python (bibliotecas <strong>Pandas</strong>, <strong>Scikit-Learn</strong>, <strong>NumPy</strong>) o R. Herramientas como <strong>Weka</strong>, <strong>KNIME</strong> u <strong>Orange</strong> facilitan experimentar con algoritmos.</p>
+            </section>
+
+            <section id="sistemas-adaptativos" class="subject-card">
+                <h3>Sistemas Adaptativos en Educación</h3>
+                
+                <h4>Descripción:</h4>
+                <p>La asignatura se centra en el desarrollo de <strong>sistemas adaptativos educativos</strong>. Estos son sistemas inteligentes que ajustan dinámicamente el contenido y la metodología de enseñanza según el alumno. Se estudian los fundamentos metodológicos y tecnológicos para diseñar estas plataformas.</p>
+
+                <h4>Valor académico/profesional:</h4>
+                <p>Los sistemas adaptativos en educación son un área emergente con gran proyección en el ámbito educativo y tecnológico. Con la expansión de la educación en línea, crece la necesidad de personalizar el aprendizaje. Este campo integra IA, pedagogía y tecnología.</p>
+
+                <h4>Aplicaciones prácticas:</h4>
+                <ul>
+                    <li><strong>Plataformas e-learning adaptativas:</strong> entornos que ajustan ejercicios según rendimiento</li>
+                    <li><strong>Sistemas de recomendación:</strong> sugerencia de contenidos basada en perfil del estudiante</li>
+                    <li><strong>Learning Analytics:</strong> análisis de interacción para anticipar dificultades</li>
+                    <li><strong>Tutorías virtuales:</strong> chatbots educativos inteligentes</li>
+                </ul>
+
+                <h4>Recursos recomendados:</h4>
+                <p>Se aconseja familiarizarse con marcos de trabajo de e-learning como <strong>Moodle</strong> y <strong>Jupyter/Python</strong> para procesar logs de aprendizaje. Libros como "Artificial Intelligence in Education" ofrecen bases teóricas.</p>
+            </section>
+
+            <section id="metodos-simbolicos" class="subject-card">
+                <h3>Métodos Simbólicos</h3>
+                
+                <h4>Descripción:</h4>
+                <p>Esta asignatura aborda los <strong>métodos simbólicos</strong> de la IA, centrados en el conocimiento <strong>explícito</strong>. Se estudian las representaciones de conocimiento (lógicas y semánticas) para sistemas de IA, como ontologías, lógica de predicados, razonamiento basado en reglas y argumentación.</p>
+
+                <h4>Valor académico/profesional:</h4>
+                <p>Los métodos simbólicos conforman la tradición histórica de la IA ("IA basada en conocimiento"). Aunque hoy coexisten con métodos de aprendizaje profundo, siguen siendo esenciales para aplicaciones que requieren interpretabilidad y razonamiento explícito.</p>
+
+                <h4>Aplicaciones prácticas:</h4>
+                <ul>
+                    <li><strong>Sistemas expertos:</strong> apoyo a la decisión en medicina o finanzas</li>
+                    <li><strong>Ontologías:</strong> unificación de información para consultas semánticas</li>
+                    <li><strong>Web Semántica:</strong> motores de inferencia para preguntas complejas</li>
+                    <li><strong>Programación lógica:</strong> aplicaciones en robótica y juegos</li>
+                </ul>
+
+                <h4>Recursos recomendados:</h4>
+                <p>Es útil practicar con herramientas como <strong>Protégé</strong> para ontologías OWL/RDF y con motores de reglas como <strong>Drools</strong>. Para lógica computacional, lenguajes como <strong>Prolog</strong> son relevantes.</p>
+            </section>
+
+            <section id="metodos-probabilistas" class="subject-card">
+                <h3>Métodos Probabilistas</h3>
+                
+                <h4>Descripción:</h4>
+                <p>Esta asignatura estudia los <strong>modelos probabilísticos</strong> en
