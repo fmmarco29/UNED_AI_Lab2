@@ -100,20 +100,21 @@ Este proyecto está licenciado bajo la Licencia MIT. Ver [LICENSE](LICENSE) para
 
 </div>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/fernando-mart%C3%ADnez-marco-a8127328/" target="_blank">
-    <img src="assets/icons/linkedin-white.svg" alt="LinkedIn" width="30" height="30">
+
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+  <a href="https://www.linkedin.com/in/fernando-mart%C3%ADnez-marco-a8127328/" target="_blank" style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" width="30" height="30">
   </a>
-  <a href="https://github.com/fmmarco29" target="_blank">
-    <img src="assets/icons/github-white.svg" alt="GitHub" width="30" height="30">
+  <a href="https://github.com/fmmarco29" target="_blank" style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub" width="30" height="30">
   </a>
-  <a href="https://fmmarco29.github.io/AI/" target="_blank">
-    <img src="assets/icons/githubpages-white.svg" alt="GitHub Pages" width="30" height="30">
+  <a href="https://fmmarco29.github.io/AI/" target="_blank" style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/domain.png" alt="GitHub Pages" width="30" height="30">
   </a>
-  <a href="https://huggingface.co/fmcsihe2929" target="_blank">
-    <img src="assets/icons/huggingface-white.svg" alt="Hugging Face" width="30" height="30">
+  <a href="https://huggingface.co/fmcsihe2929" target="_blank" style="display: flex; align-items: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Hugging_Face_logo.png" alt="Hugging Face" width="30" height="30" style="border-radius: 50%;">
   </a>
-  <a href="mailto:fmmarco29@outlook.com" target="_blank">
-    <img src="assets/icons/outlook-white.svg" alt="Outlook" width="30" height="30">
+  <a href="mailto:fmmarco29@outlook.com" target="_blank" style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/ms-outlook.png" alt="Outlook" width="30" height="30">
   </a>
 </div>
