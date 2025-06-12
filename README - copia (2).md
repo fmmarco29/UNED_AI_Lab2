@@ -45,47 +45,18 @@
 
 </div>
 
-## Sobre el Proyecto <a id="sobre-el-proyecto"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
-## 📚 Navegación por Asignaturas <a id="-navegación-por-asignaturas"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
-
-<details open>
-<summary>Haz clic para ver el índice</summary>
-
-- [Sobre el Proyecto](#sobre-el-proyecto)
-- [Objetivos](#objetivos)
-- [Estructura del Máster](#estructura-del-máster)
-- [Inicio Rápido](#inicio-rápido)
-- [Aprendizaje Profundo (Deep Learning)&#x20;](#aprendizaje-profundo-deep-learningx20)
-- [Fundamentos del Procesamiento Lingüístico (Procesamiento de Lenguaje Natural)](#fundamentos-del-procesamiento-lingüístico-procesamiento-de-lenguaje-natural)
-- [Minería de Datos (Data Mining)](#minería-de-datos-data-mining)
-- [Sistemas Adaptativos en Educación](#sistemas-adaptativos-en-educación)
-- [Métodos Simbólicos](#métodos-simbólicos)
-- [Métodos Probabilistas](#métodos-probabilistas)
-- [Computación Evolutiva](#computación-evolutiva)
-- [Visión Artificial (Computer Vision)](#visión-artificial-computer-vision)
-- [Descubrimiento de Información en Textos (Text Mining)](#descubrimiento-de-información-en-textos-text-mining)
-- [Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible](#aplicaciones-de-la-inteligencia-artificial-para-el-desarrollo-humano-y-sostenible)
-- [Web Semántica y Enlazado de Datos (Semantic Web & Linked Data)](#web-semántica-y-enlazado-de-datos-semantic-web--linked-data)
-- [Métodos de Aprendizaje Automático (Machine Learning)](#métodos-de-aprendizaje-automático-machine-learning)
-- [Trabajo de Fin de Máster en Investigación en IA](#trabajo-de-fin-de-máster-en-investigación-en-ia)
-- [Metodología de Investigación en Sistemas Inteligentes](#metodología-de-investigación-en-sistemas-inteligentes)
-- [Autor](#autor)
-- [Licencia](#licencia)
-
-</details>
-
-
+## Sobre el Proyecto
 
 Repositorio con materiales, códigos y recursos del **Máster Universitario en Investigación en Inteligencia Artificial** de la **UNED** (Universidad Nacional de Educación a Distancia).
 
-## Objetivos <a id="objetivos"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Objetivos
 
 - **Centralizar** todos los recursos académicos y prácticos
 - **Implementar** algoritmos y técnicas de IA desde cero
 - **Documentar** experiencias y aprendizajes
 - **Construir** un portafolio en IA
 
-## Estructura del Máster <a id="estructura-del-máster"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Estructura del Máster
 
 | Código     | Nombre Asignatura                                               | Créditos | Descripción Breve                                                                                   |
 |------------|----------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------|
@@ -104,7 +75,7 @@ Repositorio con materiales, códigos y recursos del **Máster Universitario en I
 | 31108022   | Trabajo de Fin de Máster en Investigación en Inteligencia Artificial | 27   | Proyecto integrador de investigación avanzada en IA.                                            |
 | 31108041   | Metodología de Investigación en Sistemas Inteligentes         | 3        | Técnicas y métodos para investigación en IA.                                                    |
 
-## Inicio Rápido <a id="inicio-rápido"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Inicio Rápido
 
 ```bash
 # Clonar el repositorio
@@ -121,7 +92,7 @@ jupyter lab
 
 A continuación se describen detalladamente cada una de las asignaturas del **Máster Universitario en Investigación en Inteligencia Artificial** de la UNED, analizando su contenido, valor académico y profesional, ejemplos de aplicaciones prácticas y recursos recomendados.
 
-## Aprendizaje Profundo (Deep Learning)&#x20; <a id="aprendizaje-profundo-deep-learningx20"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Aprendizaje Profundo (Deep Learning)&#x20;
 
 **Descripción:** Esta asignatura introduce los fundamentos de las **redes neuronales profundas**. Se estudian modelos de aprendizaje automáticos basados en **capas ocultas** (hidden layers) que permiten procesar información compleja (imágenes, voz, texto) con alto nivel de precisión. Aunque las redes neuronales profundas no son una tecnología nueva, la disponibilidad de recursos de cómputo masivo (GPUs, clústeres) ha permitido implementarlas con gran eficacia. La asignatura abarca los principios teóricos (perceptrón, retropropagación) y las principales arquitecturas modernas, así como las herramientas (por ejemplo, bibliotecas de código abierto) para diseñar y entrenar modelos de Deep Learning.
 
@@ -136,7 +107,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Para superar esta asignatura se sugiere practicar con entornos de Python y bibliotecas de Deep Learning como **TensorFlow**, **PyTorch** y **Keras**. Bibliografía clave incluye *“Deep Learning”* de Goodfellow et al. y *“Deep Learning with Python”* de François Chollet. También son útiles cursos en línea (por ejemplo, el curso de Deep Learning de Andrew Ng en Coursera) y proyectos en repositorios públicos (GitHub) sobre redes neuronales convolucionales o redes generativas. Se recomienda además familiarizarse con recursos adicionales en inglés, dada la novedad de muchos contenidos, y utilizar software de código abierto cuando sea posible.
 
-## Fundamentos del Procesamiento Lingüístico (Procesamiento de Lenguaje Natural) <a id="fundamentos-del-procesamiento-lingüístico-procesamiento-de-lenguaje-natural"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Fundamentos del Procesamiento Lingüístico (Procesamiento de Lenguaje Natural)
 
 **Descripción:** Esta asignatura aborda los **métodos básicos de PLN** orientados al análisis automático del lenguaje. Se centra en el estudio de análisis morfológico, sintáctico y semántico de textos, así como en la modelización del conocimiento lingüístico para que las máquinas entiendan y generen lenguaje humano. Es una asignatura teórico-práctica que introduce técnicas de lingüística computacional y reglas basadas en modelos estadísticos para procesar texto. El objetivo es que el alumno sepa usar herramientas de PLN para tareas de análisis textual (tokenización, etiquetado gramatical, análisis sintáctico, extracción de significado).
 
@@ -152,7 +123,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Se aconseja practicar con bibliotecas de PLN como **NLTK**, **spaCy**, **Gensim** o **HuggingFace Transformers**. Para profundizar, son útiles el libro *“Speech and Language Processing”* de Jurafsky y Martin y el curso *“Natural Language Processing”* de Stanford (disponible en línea). También conviene usar repositorios de datos y *corpora* etiquetados (Wikipedia, proyectos CLARIN, etc.) y participar en cursos de especialización (por ejemplo de Coursera o edX) sobre PLN y aprendizaje de máquinas aplicadas al texto.
 
-## Minería de Datos (Data Mining) <a id="minería-de-datos-data-mining"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Minería de Datos (Data Mining)
 
 **Descripción:** Esta asignatura ofrece una visión amplia de los **conceptos y técnicas de minería de datos**. Cubre las principales tareas (descubrimiento de patrones, clasificación, agrupamiento, evaluación de modelos) y las herramientas más habituales para resolverlas. Se estudia el proceso completo de extracción de conocimiento: limpieza de datos, selección de características, aplicación de algoritmos de minería (árboles de decisión, redes neuronales, clustering, reglas de asociación, etc.) y evaluación de resultados. El enfoque es práctico: se trata cada técnica como un componente reutilizable que se elige según el problema (según la asignatura, “como una librería de componentes seleccionables”).
 
@@ -167,7 +138,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Para esta materia conviene dominar lenguajes como Python (bibliotecas **Pandas**, **Scikit-Learn**, **NumPy**) o R. Herramientas como **Weka**, **KNIME** u **Orange** facilitan experimentar con algoritmos de minería. Libros clásicos son *“Data Mining: Concepts and Techniques”* de Han, *“Pattern Recognition and Machine Learning”* de Bishop o *“Aprendizaje automático”* de Alpaydın. Existen numerosos cursos en línea (por ejemplo en DataCamp, edX o Udemy) sobre técnicas de minería de datos y análisis de datos. También se recomiendan practicar con repositorios de datos públicos (datasets de Kaggle o UCI) para implementar proyectos de minería.
 
-## Sistemas Adaptativos en Educación <a id="sistemas-adaptativos-en-educación"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Sistemas Adaptativos en Educación
 
 **Descripción:** La asignatura se centra en el desarrollo de **sistemas adaptativos educativos**. Estos son sistemas inteligentes que ajustan dinámicamente el contenido y la metodología de enseñanza según el alumno. Se estudian los fundamentos metodológicos y tecnológicos para diseñar estas plataformas, incluyendo técnicas de *Learning Analytics* y *Minería de Datos Educativa* (Educational Data Mining) que modelan el proceso de aprendizaje y perfilan al estudiante. En la práctica, el alumno investiga cómo funcionan estos sistemas y realiza experiencias prácticas aplicando conocimientos de otras materias (como minería de datos o aprendizaje automático) al contexto educativo. La asignatura también aborda aspectos éticos y de privacidad en entornos de e-learning. Se trabaja preferentemente en Python (se ofrece apoyo si no se domina) y se considera fundamental entender idiomas y programación.
 
@@ -182,7 +153,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Se aconseja familiarizarse con marcos de trabajo de e-learning y análisis de datos educativos. Por ejemplo, **Moodle** (con herramientas de analítica educativa) y **Jupyter/Python** para procesar logs de aprendizaje. Libros como *“Artificial Intelligence in Education”* (Ian Levine et al.) o artículos sobre Educational Data Mining ofrecen bases teóricas. Cursos en línea sobre “Data Science en educación” o “Learning Analytics” pueden complementar. Repositorios de investigaciones (journals de tecnología educativa) son útiles para conocer casos de estudio reales.
 
-## Métodos Simbólicos <a id="métodos-simbólicos"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Métodos Simbólicos
 
 **Descripción:** Esta asignatura aborda los **métodos simbólicos** de la IA, centrados en el conocimiento **explícito**. Se estudian las representaciones de conocimiento (lógicas y semánticas) para sistemas de IA, como ontologías, lógica de predicados, razonamiento basado en reglas y argumentación. El alumno aprende a modelar dominios con símbolos (conceptos, relaciones) y a implementar sistemas basados en reglas lógicas (por ejemplo, motores de inferencia). Se incluyen temas como el tratamiento simbólico del lenguaje (ontologías del lenguaje) y su aplicación en sistemas inteligentes. Se enfatiza el **pensamiento lógico** y la estructuración de conocimiento, en contraste con los enfoques de aprendizaje automático.
 
@@ -197,7 +168,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Es útil practicar con herramientas como **Protégé** para crear ontologías OWL/RDF y con motores de reglas (por ejemplo **Drools** o **Jess**). Para lógica computacional, lenguajes como **Prolog** (SWI-Prolog) o sistemas simbólicos (Mathematica) son relevantes. Entre los libros destacan *“Artificial Intelligence: A Modern Approach”* (Russell & Norvig), que aborda métodos simbólicos, y *“Knowledge Representation and Reasoning”* (Brachman & Levesque). Cursos sobre lógica computacional o Web Semántica (muchos en línea) pueden complementar. Además, explorar repositorios de proyectos de ontologías (DBpedia, Wikidata) ayuda a entender implementaciones reales.
 
-## Métodos Probabilistas <a id="métodos-probabilistas"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Métodos Probabilistas
 
 **Descripción:** Esta asignatura estudia los **modelos probabilísticos** en IA. Se introduce la base matemática necesaria (cálculo de probabilidades, estadística) y los **modelos gráficos probabilistas** (redes bayesianas, diagramas de influencia, modelos de Markov) como herramientas para razonar bajo incertidumbre. El marco probabilista combina informática, estadística y aprendizaje automático para representar problemas con información incierta. Se enseñan algoritmos de inferencia y aprendizaje en estos modelos (p. ej. propagación de evidencias en una red Bayesiana). El curso incluye software especializado para construir y resolver modelos probabilistas en aplicaciones reales.
 
@@ -212,7 +183,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Para practicar se pueden usar bibliotecas como **pgmpy** o **pomegranate** en Python, o herramientas de pago como **Hugin** o **Netica** para redes bayesianas. En cuanto a literatura, *“Probabilistic Graphical Models”* de Koller & Friedman es una referencia, así como cursos de estadística aplicada a IA. También es útil el curso “Probabilistic Reasoning” en plataformas como Coursera, y repositorios de datasets para construir modelos (por ejemplo, UCI Machine Learning Repository para datos clínicos).
 
-## Computación Evolutiva <a id="computación-evolutiva"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Computación Evolutiva
 
 **Descripción:** Esta asignatura ofrece una **introducción exhaustiva a la computación evolutiva**. Se estudian los principales algoritmos inspirados en la evolución natural: algoritmos genéticos, estrategias evolutivas, programación genética, evolución diferencial, sistemas meméticos, etc.. El curso explica cómo estos métodos imitan procesos biológicos (selección natural, mutación) para resolver automáticamente problemas de optimización. El alumno aprende a implementar estos algoritmos para tareas como optimización de funciones, búsqueda de soluciones y generación de estructuras, y se analizan ejemplos prácticos de su uso.
 
@@ -227,7 +198,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Se recomienda practicar con bibliotecas como **DEAP**, **PyGAD** o **jMetal (Java)** para crear algoritmos evolutivos. El libro *“Fundamentos de Computación Evolutiva”* (Back et al.) es una buena referencia. También existen cursos y tutoriales en línea sobre “Genetic Algorithms” que ayudan a interiorizar la implementación. Para experimentación, utilizar entornos de simulación o datasets de optimización (por ejemplo, conjuntos de pruebas de funciones de optimización) es muy útil.
 
-## Visión Artificial (Computer Vision) <a id="visión-artificial-computer-vision"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Visión Artificial (Computer Vision)
 
 **Descripción:** Esta asignatura se dedica a la **visión por computador**. Su objetivo es extraer información a partir de imágenes y datos visuales. Se considera parte del área de percepción de la IA. Se estudian todos los componentes de un sistema de visión completo: adquisición de imagen, preprocesamiento, segmentación, descripción de características, reconocimiento de objetos, reconstrucción 3D, etc. Se enfatiza la necesidad de inyectar conocimiento en cada etapa del procesamiento. La asignatura es aplicada y recoge métodos vistos en otras áreas (simbólicos, automáticos, deep learning) para resolver problemas de imagen; por ejemplo, se estudian filtros de imagen, transformadas (Fourier, Wavelets), y técnicas avanzadas como redes neuronales convolucionales.
 
@@ -243,7 +214,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** El uso de bibliotecas especializadas es fundamental: **OpenCV** (biblioteca de visión por computador), **TensorFlow/Keras** o **PyTorch** (para implementar CNNs). Para matemática, libros como *“Computer Vision: Algorithms and Applications”* (Szeliski) son de referencia. Cursos en línea (por ejemplo, “Intro to Computer Vision” de Udacity) pueden ayudar. Igualmente, es útil explorar repositorios de ejemplos (GitHub) de proyectos con visión artificial (detección de objetos con YOLO, segmentación semántica con DeepLab, etc.). Practicar con datasets públicos (COCO, ImageNet) refuerza la experiencia práctica.
 
-## Descubrimiento de Información en Textos (Text Mining) <a id="descubrimiento-de-información-en-textos-text-mining"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Descubrimiento de Información en Textos (Text Mining)
 
 **Descripción:** Esta asignatura trata técnicas de PLN específicamente aplicadas a **documentos textuales** extensos. El objetivo es **analizar, caracterizar y extraer información relevante de textos** mediante herramientas automatizadas. Se cubren técnicas clásicas de análisis de texto (por ejemplo, extracción de palabras clave, TF-IDF) y modernas basadas en aprendizaje automático y profundo (vectores de palabras, embeddings, redes neuronales para texto). Además, se estudian tareas de clasificación automática de documentos y agrupamiento (clustering) para organizar grandes colecciones de texto. En definitiva, combina conocimientos de PLN y minería de datos para manejar información textual no estructurada.
 
@@ -259,7 +230,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Se aconseja usar herramientas de PLN y minería de texto, como **NLTK**, **spaCy**, **scikit-learn** para clasificación, o **gensim** para modelado de temas. También **elasticSearch** o **Apache Lucene** para indexación y búsqueda en texto. En cuanto a bibliografía, el libro *“Speech and Language Processing”* (Jurafsky & Martin) incluye secciones relevantes. En el plano práctico, existen cursos sobre text mining en plataformas como DataCamp o edX. Bases de datos públicas de texto (Wikipedia, corpus jurídicos o biomédicos) sirven para hacer prácticas reales.
 
-## Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible <a id="aplicaciones-de-la-inteligencia-artificial-para-el-desarrollo-humano-y-sostenible"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible
 
 **Descripción:** Esta asignatura aborda la **visión social y ética de la IA**. Estudia cómo las tecnologías de IA pueden contribuir al desarrollo humano y sostenible (por ejemplo, en salud, medio ambiente, educación) y analiza normativas y recomendaciones para un uso responsable. Se revisan principios éticos de la IA, su relación con los Objetivos de Desarrollo Sostenible de la ONU, y casos de aplicación humanitaria. Es interdisciplinar, considerando impactos sociales, políticas de privacidad y responsabilidad. Se fomentan debates críticos y proyectos donde el alumno valora cómo la IA beneficia o afecta a las personas, con enfoque en *IA para el bien común*.
 
@@ -275,7 +246,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Se recomiendan lecturas sobre principios éticos (p.ej. las líneas guía de la UNESCO o de la OCDE sobre IA), así como informes de iniciativas “AI for Good” (ONU). Cursos en línea sobre IA responsable (por ejemplo, “Ethics of AI” de edX) y seminarios sobre sostenibilidad en tecnología son útiles. También conviene familiarizarse con herramientas de auditoría de modelos (por ejemplo, paquetes de Python para medir sesgos) y seguir portales como AI4Good o la Cátedra UNESCO en IA. La bibliografía puede incluir textos de ética de la tecnología y casos de estudio reales.
 
-## Web Semántica y Enlazado de Datos (Semantic Web & Linked Data) <a id="web-semántica-y-enlazado-de-datos-semantic-web--linked-data"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Web Semántica y Enlazado de Datos (Semantic Web & Linked Data)
 
 **Descripción:** En esta asignatura se estudian los **conceptos de Web Semántica**, es decir, representar datos en la web de forma estructurada y vinculada. Se trabajan los lenguajes y estándares (RDF, OWL, SPARQL) que permiten describir entidades y relaciones de modo que las máquinas puedan “comprender” el significado de la información. También se abordan técnicas de **Linked Data** y gráficas de conocimiento (knowledge graphs). El alumno aprende a construir ontologías, poblar bases de triples de datos y formular consultas complejas en SPARQL. Se discute cómo enlazar datos abiertos (Open Data) de distintas fuentes para formar conjuntos integrados de conocimiento.
 
@@ -290,7 +261,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Es esencial practicar con herramientas como **Protégé** (entorno gráfico para ontologías OWL), bases de datos triple store (por ejemplo **Apache Jena Fuseki**, **GraphDB**) y formular consultas SPARQL. Como bibliografía, *“Linked Data: Evolving the Web into a Global Data Space”* de Tom Heath & Christian Bizer es una referencia. También conviene explorar repositorios de Linked Open Data (p.ej. el portal Datahub) y tutoriales sobre construcción de Knowledge Graphs. La práctica con proyectos de vocabularios estandarizados (Schema.org, FOAF, etc.) ayuda a entender los retos de interoperabilidad.
 
-## Métodos de Aprendizaje Automático (Machine Learning) <a id="métodos-de-aprendizaje-automático-machine-learning"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Métodos de Aprendizaje Automático (Machine Learning)
 
 **Descripción:** Esta asignatura introduce las **técnicas más importantes del aprendizaje automático**. Cubre los tres paradigmas principales: aprendizaje supervisado (clasificación, regresión), no supervisado (clustering, reducción de dimensionalidad) y por refuerzo. El objetivo es que el alumno comprenda el marco general en el que encajar cada técnica y pueda elegir la más adecuada para un problema determinado. Se estudian algoritmos clásicos (árboles de decisión, SVM, k-means, redes neuronales) y la forma de evaluarlos (validación cruzada, métricas). La asignatura complementa otras materias del máster explicando el contexto y la selección de métodos (en lugar de su implementación de cero).
 
@@ -305,7 +276,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Se recomienda usar **Scikit-Learn** en Python para implementar los algoritmos estudiados. Libros clásicos incluyen *“Pattern Recognition and Machine Learning”* de Christopher Bishop o *“Machine Learning”* de Alpaydın. Cursos gratuitos (por ejemplo, el famoso curso de Andrew Ng “Machine Learning” en Coursera) son muy útiles para afianzar conceptos. También existen repositorios de prácticas (como el repositorio de ejemplos de Scikit-Learn) y competiciones en Kaggle donde el alumno puede aplicar estos métodos a datos reales. Además, seguir blogs y tutoriales actualizados ayuda a entender las tendencias recientes (aprendizaje por refuerzo, aprendizaje activo, etc.).
 
-## Trabajo de Fin de Máster en Investigación en IA <a id="trabajo-de-fin-de-máster-en-investigación-en-ia"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Trabajo de Fin de Máster en Investigación en IA
 
 **Descripción:** El Trabajo Fin de Máster (TFM) constituye una asignatura de investigación donde el alumno debe realizar un proyecto original de 27 créditos (675 horas de trabajo) en el ámbito de la inteligencia artificial. Implica **identificar un problema no resuelto**, plantear objetivos científicos, implementar una solución utilizando técnicas de IA y evaluar los resultados siguiendo el método científico. El TFM debe contribuir al estado del arte: idealmente, culminar con resultados susceptibles de ser publicados en congresos o revistas indexadas. El proceso incluye revisión bibliográfica, definición de metodología, programación de algoritmos y análisis de experimentos bajo la supervisión de un director asignado.
 
@@ -315,7 +286,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 
 **Recursos recomendados:** Para realizar el TFM se sugiere apoyarse en **publicaciones científicas** recientes (accediendo a repositorios como arXiv, IEEE o JCR) para fundamentar el estado del arte. Herramientas de gestión bibliográfica (Zotero, Mendeley) y de escritura académica (LaTeX, Git/GitHub para control de versiones) facilitan el trabajo. Es útil consultar las guías y FAQs oficiales del máster sobre criterios de admisión y supervisión. Además, se recomienda realizar prototipos con las mismas herramientas vistas en las asignaturas optativas (por ejemplo, entornos de aprendizaje automático o PLN) e iterar con feedback del director. La lectura del apartado “Metodología de investigación” previa (asignatura obligatoria) prepara al alumno en cómo plantear el proyecto.
 
-## Metodología de Investigación en Sistemas Inteligentes <a id="metodología-de-investigación-en-sistemas-inteligentes"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Metodología de Investigación en Sistemas Inteligentes
 
 **Descripción:** Esta asignatura introduce la **metodología de investigación aplicada a la IA**. Cubre las etapas del método científico: planteamiento de hipótesis, diseño de experimentos, recolección y análisis de datos, redacción de resultados y referencias académicas. Sirve de preparación para las demás asignaturas optativas y, en especial, para el desarrollo del TFM. Se discuten criterios de publicación en conferencias, técnicas de revisión bibliográfica, aspectos éticos de la investigación y elaboración de propuestas de proyecto. Es de 3 créditos y se imparte en el primer semestre.
 
@@ -332,7 +303,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 **Fuentes:** Información tomada de las guías oficiales de las asignaturas en la UNED, así como de fuentes especializadas que describen aplicaciones actuales de estas tecnologías. Los recursos recomendados son ampliamente reconocidos en la literatura y la formación en IA (cursos de plataformas MOOC, libros de texto estándar y bibliotecas de código abierto).
 
 
-## Autor <a id="autor"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Autor
 
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
   <a href="https://www.linkedin.com/in/fernando-mart%C3%ADnez-marco-a8127328/" target="_blank" style="display: flex; align-items: center;">
@@ -357,7 +328,7 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 </div>
 
 
-## Licencia <a id="licencia"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
 
