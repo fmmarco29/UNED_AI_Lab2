@@ -58,25 +58,22 @@ Repositorio con materiales, códigos y recursos del **Máster Universitario en I
 
 ## Estructura del Máster
 
-| Carpeta    | Asignatura    | ECTS     | Descripción    |
-|------------|---------------|----------|----------------|
-| [`01_Fundamentos_IA/`](./01_Fundamentos_IA/) | **Fundamentos de Inteligencia Artificial** | 6 ECTS | Conceptos básicos y fundamentos teóricos de la IA |
-| [`02_Metodos_Aprendizaje_Automatico/`](./02_Metodos_Aprendizaje_Automatico/) | **Métodos de Aprendizaje Automático** | 6 ECTS | Algoritmos de ML supervisado y no supervisado |
-| [`03_Metodos_Probabilistas_IA/`](./03_Metodos_Probabilistas_IA/) | **Métodos Probabilistas en IA** | 6 ECTS | Redes bayesianas, cadenas de Markov y métodos estocásticos |
-| [`04_Metodos_Simbolicos_IA/`](./04_Metodos_Simbolicos_IA/) | **Métodos Simbólicos en IA** | 6 ECTS | Sistemas expertos, lógica y representación del conocimiento |
-| [`05_Metodos_Bioinspirados_IA/`](./05_Metodos_Bioinspirados_IA/) | **Métodos Bioinspirados en IA** | 6 ECTS | Algoritmos genéticos, redes neuronales y computación evolutiva |
-| [`06_Metodos_Hibridos_IA/`](./06_Metodos_Hibridos_IA/) | **Métodos Híbridos en IA** | 6 ECTS | Combinación de diferentes paradigmas de IA |
-| [`07_Aprendizaje_Profundo/`](./07_Aprendizaje_Profundo/) | **Aprendizaje Profundo** | 6 ECTS | Deep Learning, CNNs, RNNs y arquitecturas avanzadas |
-| [`08_Procesamiento_Lenguaje_Natural/`](./08_Procesamiento_Lenguaje_Natural/) | **Procesamiento de Lenguaje Natural** | 6 ECTS | NLP, análisis de texto y modelos de lenguaje |
-| [`09_Vision_Artificial/`](./09_Vision_Artificial/) | **Visión Artificial** | 6 ECTS | Procesamiento de imágenes y visión por computador |
-| [`10_Mineria_Datos/`](./10_Mineria_Datos/) | **Minería de Datos** | 6 ECTS | Data mining, descubrimiento de patrones y KDD |
-| [`11_Descubrimiento_Informacion_Textos/`](./11_Descubrimiento_Informacion_Textos/) | **Descubrimiento de Información en Textos** | 6 ECTS | Text mining, análisis de sentimientos y recuperación de información |
-| [`12_Aplicaciones_IA_Desarrollo_Humano/`](./12_Aplicaciones_IA_Desarrollo_Humano/) | **Aplicaciones de IA en Desarrollo Humano** | 6 ECTS | IA aplicada a salud, educación y bienestar social |
-| [`13_IA_Ingenieria/`](./13_IA_Ingenieria/) | **IA en Ingeniería** | 6 ECTS | Aplicaciones industriales y sistemas de control inteligente |
-| [`14_Tecnicas_IA_Ingenieria/`](./14_Tecnicas_IA_Ingenieria/) | **Técnicas de IA en Ingeniería** | 6 ECTS | Optimización, robótica y sistemas embebidos inteligentes |
-| [`15_Complementos_Formacion_IA/`](./15_Complementos_Formacion_IA/) | **Complementos de Formación en IA** | 6 ECTS | Temas avanzados y tendencias emergentes en IA |
-| [`16_Metodologia_Investigacion/`](./16_Metodologia_Investigacion/) | **Metodología de Investigación en SI** | 6 ECTS | Métodos de investigación científica en informática |
-| [`17_TFM/`](./17_TFM/) | **Trabajo Fin de Máster** | 12 ECTS | Proyecto de investigación final |
+| Código     | Nombre Asignatura                                               | Créditos | Descripción Breve                                                                                   |
+|------------|----------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------|
+| 31080010   | Aprendizaje Profundo                                           | 6        | Técnicas avanzadas de redes neuronales profundas.                                                  |
+| 31080027   | Fundamentos del Procesamiento Lingüístico                      | 6        | Bases para el análisis y comprensión del lenguaje natural.                                        |
+| 31101061   | Minería de Datos                                               | 6        | Métodos para extraer conocimiento de grandes datos.                                               |
+| 31101095   | Sistemas Adaptativos en Educación                              | 6        | Sistemas que se ajustan automáticamente para optimizar el aprendizaje.                            |
+| 3110117-   | Métodos Simbólicos                                             | 6        | Técnicas basadas en lógica y representaciones simbólicas.                                         |
+| 31101199   | Métodos Probabilistas                                          | 6        | Modelos probabilísticos aplicados a la IA.                                                        |
+| 31101220   | Computación Evolutiva                                          | 6        | Algoritmos inspirados en evolución biológica.                                                    |
+| 31101235   | Visión Artificial                                             | 6        | Procesamiento e interpretación de imágenes y vídeo.                                              |
+| 31101254   | Descubrimiento de Información en Textos                       | 6        | Técnicas para extracción de información relevante de textos.                                     |
+| 31101273   | Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible | 6 | Uso de IA para soluciones sostenibles y sociales.                                                |
+| 31108018   | Web Semántica y Enlazado de Datos                             | 6        | Tecnologías para enlazar y dar sentido a datos en la web.                                        |
+| 31108037   | Métodos de Aprendizaje Automático                             | 6        | Técnicas clásicas y modernas de aprendizaje supervisado y no supervisado.                        |
+| 31108022   | Trabajo de Fin de Máster en Investigación en Inteligencia Artificial | 27   | Proyecto integrador de investigación avanzada en IA.                                            |
+| 31108041   | Metodología de Investigación en Sistemas Inteligentes         | 3        | Técnicas y métodos para investigación en IA.                                                    |
 
 ## Inicio Rápido
 
