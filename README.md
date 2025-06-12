@@ -1,3 +1,9 @@
+---
+title: AI_Lab
+subtitle: "AI frees us from the known to face what we cannot yet see — where creation is not a choice, but our only path forward"
+layout: default
+---
+
 # UNED Master en Investigación en Inteligencia Artificial
 
 
