@@ -45,35 +45,32 @@
 
 </div>
 
-## Sobre el Proyecto <a id="sobre-el-proyecto"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
-## 📚 Navegación por Asignaturas <a id="-navegación-por-asignaturas"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
 
-<details open>
-<summary>Haz clic para ver el índice</summary>
 
-- [Sobre el Proyecto](#sobre-el-proyecto)
-- [Objetivos](#objetivos)
-- [Estructura del Máster](#estructura-del-máster)
-- [Inicio Rápido](#inicio-rápido)
-- [Aprendizaje Profundo (Deep Learning)&#x20;](#aprendizaje-profundo-deep-learningx20)
-- [Fundamentos del Procesamiento Lingüístico (Procesamiento de Lenguaje Natural)](#fundamentos-del-procesamiento-lingüístico-procesamiento-de-lenguaje-natural)
-- [Minería de Datos (Data Mining)](#minería-de-datos-data-mining)
-- [Sistemas Adaptativos en Educación](#sistemas-adaptativos-en-educación)
-- [Métodos Simbólicos](#métodos-simbólicos)
-- [Métodos Probabilistas](#métodos-probabilistas)
-- [Computación Evolutiva](#computación-evolutiva)
-- [Visión Artificial (Computer Vision)](#visión-artificial-computer-vision)
-- [Descubrimiento de Información en Textos (Text Mining)](#descubrimiento-de-información-en-textos-text-mining)
-- [Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible](#aplicaciones-de-la-inteligencia-artificial-para-el-desarrollo-humano-y-sostenible)
-- [Web Semántica y Enlazado de Datos (Semantic Web & Linked Data)](#web-semántica-y-enlazado-de-datos-semantic-web--linked-data)
-- [Métodos de Aprendizaje Automático (Machine Learning)](#métodos-de-aprendizaje-automático-machine-learning)
-- [Trabajo de Fin de Máster en Investigación en IA](#trabajo-de-fin-de-máster-en-investigación-en-ia)
-- [Metodología de Investigación en Sistemas Inteligentes](#metodología-de-investigación-en-sistemas-inteligentes)
-- [Autor](#autor)
-- [Licencia](#licencia)
+- [UNED Master en Investigación en Inteligencia Artificial](#uned-master-en-investigación-en-inteligencia-artificial)
+  - [Objetivos  ↑ Volver al inicio](#objetivos---volver-al-inicio)
+  - [Estructura del Máster  ↑ Volver al inicio](#estructura-del-máster---volver-al-inicio)
+  - [Inicio Rápido  ↑ Volver al inicio](#inicio-rápido---volver-al-inicio)
+- [Guía de estudio de las asignaturas del Máster en IA (UNED)](#guía-de-estudio-de-las-asignaturas-del-máster-en-ia-uned)
+  - [Aprendizaje Profundo (Deep Learning)   ↑ Volver al inicio](#aprendizaje-profundo-deep-learning----volver-al-inicio)
+  - [Fundamentos del Procesamiento Lingüístico (Procesamiento de Lenguaje Natural)  ↑ Volver al inicio](#fundamentos-del-procesamiento-lingüístico-procesamiento-de-lenguaje-natural---volver-al-inicio)
+  - [Minería de Datos (Data Mining)  ↑ Volver al inicio](#minería-de-datos-data-mining---volver-al-inicio)
+  - [Sistemas Adaptativos en Educación  ↑ Volver al inicio](#sistemas-adaptativos-en-educación---volver-al-inicio)
+  - [Métodos Simbólicos  ↑ Volver al inicio](#métodos-simbólicos---volver-al-inicio)
+  - [Métodos Probabilistas  ↑ Volver al inicio](#métodos-probabilistas---volver-al-inicio)
+  - [Computación Evolutiva  ↑ Volver al inicio](#computación-evolutiva---volver-al-inicio)
+  - [Visión Artificial (Computer Vision)  ↑ Volver al inicio](#visión-artificial-computer-vision---volver-al-inicio)
+  - [Descubrimiento de Información en Textos (Text Mining)  ↑ Volver al inicio](#descubrimiento-de-información-en-textos-text-mining---volver-al-inicio)
+  - [Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible  ↑ Volver al inicio](#aplicaciones-de-la-inteligencia-artificial-para-el-desarrollo-humano-y-sostenible---volver-al-inicio)
+  - [Web Semántica y Enlazado de Datos (Semantic Web \& Linked Data)  ↑ Volver al inicio](#web-semántica-y-enlazado-de-datos-semantic-web--linked-data---volver-al-inicio)
+  - [Métodos de Aprendizaje Automático (Machine Learning)  ↑ Volver al inicio](#métodos-de-aprendizaje-automático-machine-learning---volver-al-inicio)
+  - [Trabajo de Fin de Máster en Investigación en IA  ↑ Volver al inicio](#trabajo-de-fin-de-máster-en-investigación-en-ia---volver-al-inicio)
+  - [Metodología de Investigación en Sistemas Inteligentes  ↑ Volver al inicio](#metodología-de-investigación-en-sistemas-inteligentes---volver-al-inicio)
+  - [Autor  ↑ Volver al inicio](#autor---volver-al-inicio)
+  - [Licencia  ↑ Volver al inicio](#licencia---volver-al-inicio)
+
 
 </details>
-
 
 
 Repositorio con materiales, códigos y recursos del **Máster Universitario en Investigación en Inteligencia Artificial** de la **UNED** (Universidad Nacional de Educación a Distancia).
