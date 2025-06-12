@@ -3,29 +3,27 @@
 
 
 - [UNED Master en Investigación en Inteligencia Artificial](#uned-master-en-investigación-en-inteligencia-artificial)
-  - [Objetivos  ↑ Volver al inicio](#objetivos)
-  - [Estructura del Máster  ↑ Volver al inicio](#estructura-del-máster)
-  - [Inicio Rápido  ↑ Volver al inicio](#inicio-rápido)
-- [Guía de estudio de las asignaturas del Máster en IA (UNED)](#guía-de-estudio-de-las-asignaturas-del-máster-en-ia-uned)
-  - [Aprendizaje Profundo (Deep Learning)   ↑ Volver al inicio](#aprendizaje-profundo-deep-learning-)
-  - [Fundamentos del Procesamiento Lingüístico (Procesamiento de Lenguaje Natural)  ↑ Volver al inicio](#fundamentos-del-procesamiento-lingüístico-procesamiento-de-lenguaje-natural)
-  - [Minería de Datos (Data Mining)  ↑ Volver al inicio](#minería-de-datos-data-mining)
-  - [Sistemas Adaptativos en Educación  ↑ Volver al inicio](#sistemas-adaptativos-en-educación)
-  - [Métodos Simbólicos  ↑ Volver al inicio](#métodos-simbólicos)
-  - [Métodos Probabilistas  ↑ Volver al inicio](#métodos-probabilistas)
-  - [Computación Evolutiva  ↑ Volver al inicio](#computación-evolutiva)
-  - [Visión Artificial (Computer Vision)  ↑ Volver al inicio](#visión-artificial-computer-vision)
-  - [Descubrimiento de Información en Textos (Text Mining)  ↑ Volver al inicio](#descubrimiento-de-información-en-textos-text-mining)
-  - [Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible  ↑ Volver al inicio](#aplicaciones-de-la-inteligencia-artificial-para-el-desarrollo-humano-y-sostenible)
-  - [Web Semántica y Enlazado de Datos (Semantic Web \& Linked Data)  ↑ Volver al inicio](#web-semántica-y-enlazado-de-datos-semantic-web--linked-data)
-  - [Métodos de Aprendizaje Automático (Machine Learning)  ↑ Volver al inicio](#métodos-de-aprendizaje-automático-machine-learning)
-  - [Trabajo de Fin de Máster en Investigación en IA  ↑ Volver al inicio](#trabajo-de-fin-de-máster-en-investigación-en-ia)
-  - [Metodología de Investigación en Sistemas Inteligentes  ↑ Volver al inicio](#metodología-de-investigación-en-sistemas-inteligentes)
-  - [Autor  ↑ Volver al inicio](#autor)
-  - [Licencia  ↑ Volver al inicio](#licencia)
- 
+  - [Objetivos](#objetivos)
+  - [Estructura del Máster](#estructura-del-máster)
+  - [Inicio Rápido](#inicio-rápido)
 
-</details>
+
+- [Guía de estudio de las asignaturas del Máster en IA (UNED)](#guía-de-estudio-de-las-asignaturas-del-máster-en-ia-uned)
+  - [Aprendizaje Profundo (Deep Learning)](#aprendizaje-profundo-deep-learning-)
+  - [Fundamentos del Procesamiento Lingüístico (Procesamiento de Lenguaje Natural)](#fundamentos-del-procesamiento-lingüístico-procesamiento-de-lenguaje-natural)
+  - [Minería de Datos (Data Mining)](#minería-de-datos-data-mining)
+  - [Sistemas Adaptativos en Educación](#sistemas-adaptativos-en-educación)
+  - [Métodos Simbólicos](#métodos-simbólicos)
+  - [Métodos Probabilistas](#métodos-probabilistas)
+  - [Computación Evolutiva](#computación-evolutiva)
+  - [Visión Artificial (Computer Vision)](#visión-artificial-computer-vision)
+  - [Descubrimiento de Información en Textos (Text Mining)](#descubrimiento-de-información-en-textos-text-mining)
+  - [Aplicaciones de la Inteligencia Artificial para el Desarrollo Humano y Sostenible](#aplicaciones-de-la-inteligencia-artificial-para-el-desarrollo-humano-y-sostenible)
+  - [Web Semántica y Enlazado de Datos (Semantic Web \& Linked Data)](#web-semántica-y-enlazado-de-datos-semantic-web--linked-data)
+  - [Métodos de Aprendizaje Automático (Machine Learning)](#métodos-de-aprendizaje-automático-machine-learning)
+  - [Trabajo de Fin de Máster en Investigación en IA](#trabajo-de-fin-de-máster-en-investigación-en-ia)
+  - [Metodología de Investigación en Sistemas Inteligentes](#metodología-de-investigación-en-sistemas-inteligentes)
+  
 
 
 Repositorio con materiales, códigos y recursos del **Máster Universitario en Investigación en Inteligencia Artificial** de la **UNED** (Universidad Nacional de Educación a Distancia).
@@ -284,23 +282,23 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 **Fuentes:** Información tomada de las guías oficiales de las asignaturas en la UNED, así como de fuentes especializadas que describen aplicaciones actuales de estas tecnologías. Los recursos recomendados son ampliamente reconocidos en la literatura y la formación en IA (cursos de plataformas MOOC, libros de texto estándar y bibliotecas de código abierto).
 
 
-## Autor <a id="autor"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Autor <a id="autor"></a>(#uned-master-en-investigación-en-inteligencia-artificial)
 
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
   <a href="https://www.linkedin.com/in/fernando-mart%C3%ADnez-marco-a8127328/" target="_blank" style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="30" height="30" style="filter: invert(1);">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="30" height="30" style="filter: invert(0);">
   </a>
   <a href="https://github.com/fmmarco29" target="_blank" style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="30" height="30" style="filter: invert(1);">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="30" height="30" style="filter: invert(0);">
   </a>
   <a href="https://fmmarco29.github.io/AI/" target="_blank" style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/githubpages.svg" alt="GitHub Pages" width="80" height="80" style="filter: invert(1);">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/githubpages.svg" alt="GitHub Pages" width="80" height="80" style="filter: invert(0);">
   </a>
   <a href="https://huggingface.co/fmcsihe2929" target="_blank" style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/huggingface.svg" alt="Hugging Face" width="30" height="30" style="filter: invert(1);">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/huggingface.svg" alt="Hugging Face" width="30" height="30" style="filter: invert(0);">
   </a>
   <a href="mailto:fmmarco29@outlook.com" target="_blank" style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoftoutlook.svg" alt="Outlook" width="30" height="30" style="filter: invert(1);">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoftoutlook.svg" alt="Outlook" width="30" height="30" style="filter: invert(0);">
   </a>
 </div>
 
@@ -309,14 +307,8 @@ A continuación se describen detalladamente cada una de las asignaturas del **M�
 </div>
 
 
-## Licencia <a id="licencia"></a> [↑ Volver al inicio](#uned-master-en-investigación-en-inteligencia-artificial)
+## Licencia <a id="licencia"></a>(#uned-master-en-investigación-en-inteligencia-artificial)
 
 Este proyecto está licenciado bajo la Licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
 
 ---
-
-<div align="center">
-
-**¡No olvides dar una estrella si te ha sido útil!**
-
-</div>
